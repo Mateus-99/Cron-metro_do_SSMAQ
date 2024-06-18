@@ -1,0 +1,43 @@
+/* Estilos opcionais para melhorar a aparência do contador */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('Images/banner264_2024050318244013.jpeg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz a imagem cobrir todo o container */
+    background-position: center; /* Centraliza a imagem no container */
+}
+
+.clock {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente para o relógio */
+    padding: 30px; /* Espaçamento interno do relógio aumentado */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin-left: auto; /* Move o relógio para a direita */
+    width: 70%; /* Largura média do relógio aumentada um pouco */
+    max-width: 600px; /* Largura máxima para garantir responsividade */
+}
+
+#clock-face {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px; /* Espaçamento superior dentro do relógio aumentado */
+}
+
+#clock-face div {
+    text-align: center;
+    margin: 0 10px; /* Espaçamento entre os elementos do relógio aumentado */
+}
+
+#clock-face span {
+    display: block;
+    font-size: 28px; /* Tamanho da fonte para os números do relógio aumentado */
+    font-weight: bold;
+    color: #333;
+}
+
+h1 {
+    font-size: 32px; /* Tamanho do título aumentado */
+    margin-bottom: 30px; /* Espaçamento inferior abaixo do título aumentado */
+}
